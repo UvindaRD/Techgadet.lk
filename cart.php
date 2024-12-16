@@ -135,7 +135,7 @@ function getCartTotal($pdo, $user_id) {
                 </div>
                 
                 <div class="mt-6 space-x-4">
-                    <a href="index.php" class="inline-block bg-gray-600 text-white px-6 py-3 rounded-md hover:bg-gray-700">
+                    <a href="index.html" class="inline-block bg-gray-600 text-white px-6 py-3 rounded-md hover:bg-gray-700">
                         Continue Shopping
                     </a>
                     <a href="checkout.php" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">

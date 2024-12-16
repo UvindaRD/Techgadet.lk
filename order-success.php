@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['whatsapp_message'])) {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -36,7 +36,7 @@ $seller_phone = '94767132571'; // Replace with seller's phone number
                 Contact Seller on WhatsApp
             </a>
             
-            <a href="index.php" class="block mt-4 text-blue-600 hover:text-blue-800">
+            <a href="index.html" class="block mt-4 text-blue-600 hover:text-blue-800">
                 Return to Homepage
             </a>
         </div>
